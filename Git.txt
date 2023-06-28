@@ -55,4 +55,22 @@ then implement on real program its wast of time but git provide inctant copy of 
 ->git branch -d branch_name ---(Enter)(Its delate only local branch not github branch)
 ->git branch -D branch_name --(Enter)(Its delate both of branch Git and GitHub )
 
+	   		--- Git Hub Or Server Hosting On ---
+		*(how to give remote name)
+->git remote add origin https://github.com/Salman7040/Git-Or-Github-Tutorial.git    --(Enter)
+Note: after https its url from github when you create  github repository or before the  https its command to add  remote name
+for hosting or push the local repository to the github server..
+		*(Check your git remote name)
+->git remote  --(Enter) (its show your git remote name)
+->git remote  -v --(Enter) (its show where you push or fetch)\
+->git remote rm origin_name --(Enter)(it use to delate your current origin)
+		*(How to Host on github server (how to push))
+->git  push  origin/remote_name  branch_name     ---(Enter)
+-> git push -u origin_name  branch_name   ----(Enter) 
+(it use to save your push baranch after this use  once you type (git push) its automatically push your local repsitory to direct
+on github server there is no need to give origin name as well as branch name)
+		*(how to delate push  origin or file on github)
+->git push origin_name  --delete branch_name  ----(Enter) 
+
+
 
