@@ -38,7 +38,7 @@
 
 					----Branches----
 note :Why we use of branch when you make large project basically you perform some changes ofcourse its imapact on direct on real program that time  you need some copy of that program  which is for worke sepratly then its worke properly 
-then implement on real program its wast of time but git provide inctant copy of yor program with the help of git branches..
+then implement or mearge somthing  its waste of time but the  git was provide instant copy of your program with the help of git branches..
 (The Master Branch Is  your Real Branch).
 		*( For Finding  how many branch you have)
 ->git branch      ---(Enter)  
